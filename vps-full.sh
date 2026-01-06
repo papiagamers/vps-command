@@ -21,12 +21,15 @@ while true; do
 clear
 show_banner
 echo
-echo "1. Install Pterodactyl Panel"
-echo "2. Install Wings"
-echo "3. Install Jenkis Software"
-echo "4. Install TailScale"
-echo "5. Blueprint Setup Install"
-echo "6. Exit"
+echo "1) Panel Installation"
+  2) Wings Installation
+  3) Panel Update
+  5) Blueprint Setup
+  6) Cloudflare Setup
+  9) Tailscale (install + up)
+ 10) Database Setup
+ 11) Blueprints extensions Setup
+  0) Exit
 echo
 read -p ["Choose In The From [1-6]: " choice
 
